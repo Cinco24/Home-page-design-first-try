@@ -1,0 +1,329 @@
+*{
+    margin: 0;
+    padding: 0px;
+}
+
+body{
+    background-color: orange;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+header{
+    width: 100%;
+    height: 12dvh;
+    background-color: #154360;
+    border-top: 1.5px solid  orange;
+    border-bottom: 3px solid orange;
+    border-radius: 10px;
+}
+
+header div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.right{
+    width: 50%;
+    font-family: Major Mono Display;
+    color: orange;
+    height: 12dvh;
+}
+
+.right h1{
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.left{
+    width: 50%;
+    height: 12dvh;
+    font-size: 25px;
+}
+
+.left ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.left ul{
+    font-size: 30px;
+    color: orange;
+    background-color: #1A5276;
+    border: 1px solid orange;
+    border-radius: 10px;
+    padding: 15px;
+    cursor: pointer;
+    gap: 40px;
+}
+
+.modal-c{
+    position: fixed;
+    right: 0;
+    margin-right: 13%;
+    margin-top: 34%;
+}
+
+.modal-c ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.exit{
+    font-size: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.catalog-h{
+    display: none;
+}
+
+/* //////////////////////////////////// */
+
+main{
+    width: 100%;
+    height: 78dvh;
+    background-color: #154360;
+    border-top: 3px solid orange;
+    border-bottom: 5px solid orange;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-left{
+    width: 50%;
+    height: 30dvh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    border-left: 5px solid orange;
+    border-radius: 3px;
+    margin-left: 40px;
+}
+
+.main-left h1{
+    margin-left: 30px;
+    font-family: Arimo;
+}
+
+.main-right{
+    width: 50%;
+    height: 35dvh;
+    display: flex;
+    gap: 30px;
+}
+
+.main-img{
+    width: 43%;
+    height: 40dvh;
+    background-color: #F39C12;
+    border-radius: 20px;
+}
+
+.main-img img{
+    border-radius: 10px;
+}
+
+.main-img h1{
+    font-size: 23px;
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-family: Arimo;
+}
+
+.main-img button{
+    background-color: rgb(255, 255, 255);
+    color: orange;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main-img button:hover{
+    background-color: rgb(255, 255, 255);
+    color: #F39C12;
+    width: 110px;
+    height: 35px;
+}
+
+footer{
+    width: 100%;
+    height: 8dvh;
+    display: flex;
+}
+
+footer h1 a{
+    color: white;
+}
+
+.information{
+    width: 40%;
+    display: flex;
+    gap: 30px;
+    font-size: 13px;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-icon{
+    position: absolute;
+    right: 0;
+    color: white;
+    font-size: 50px;
+    margin: 20px 20px 0px 0px;
+    cursor: pointer;
+}
+
+.chat-modal{
+    position: absolute;
+    right: 0;
+    width: 27%;
+    height: 50dvh;
+    background-color: #F39C12;
+    margin-top: 17%;
+    margin-right: 60px;
+    border-radius: 40px;
+}
+
+.head{
+    width: 100%;
+    height: 10dvh;
+    background-color: #F39C12;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.head i {
+    margin: 0px 0px 0px 30px;
+    font-size: 35px;
+    color: white;
+}
+
+.head h1{
+    font-size: 25px;
+    margin-left: 10px;
+    color: white;
+}
+
+.main{
+    width: 100%;
+    height: 30dvh;
+    background-color: rgb(255, 255, 255);
+}
+
+.footer{
+    width: 100%;
+    height: 10dvh;
+    background-color: #F39C12;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.footer i{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.footer input{
+    width: 50%;
+    height: 4dvh;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    margin-bottom: 30px;
+    margin-left: 15px;
+}
+
+.me{
+    width: 43%;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.me h1{
+    display: block;
+    border: 3px solid orange;
+    border-radius: 20px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+}
+
+.she{
+    display: flex;
+    justify-content: end;
+    width: 99%;
+    border-radius: 20px;
+    font-size: 13px;
+    padding-top: 5px;
+}
+
+.she h1{
+    display: block;
+    border: 3px solid blue;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-left: 7px;
+    padding-bottom: 2px;
+}
+
+.chat-exit{
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    font-size: 33px;
+    color: white;
+    cursor: pointer;
+}
+
+.chat-h{
+    display: none;
+}
+
+@media (max-width: 1300px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .main-img{
+        width: 300px;
+    }
+
+    .main-right{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        width: 100%;
+    }
+}
